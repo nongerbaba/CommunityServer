@@ -44,7 +44,9 @@
         <% if (FileConverter.EnableAsUploaded) %>
         <% { %>
         <label class="gray-text">
-            <input type="checkbox" class="store-original checkbox" <%= FilesSettings.StoreOriginalFiles ? "checked=\"checked\"" : string.Empty %> />
+            <!--input type="checkbox" class="store-original checkbox" <%= FilesSettings.StoreOriginalFiles ? "checked=\"checked\"" : string.Empty %> /-->
+            <!-- 强制上传文件原先格式-->
+            <input type="checkbox" class="store-original checkbox" checked="checked" />
             <%= FilesUCResource.ConfirmStoreOriginalUploadCbxLabelText %>
         </label>
         <% } %>
@@ -78,7 +80,9 @@
             <ul class="dropdown-content">
                 <li>
                     <label class="gray-text">
-                        <input type="checkbox" class="update-if-exist checkbox" <%= FilesSettings.UpdateIfExist ? "checked=\"checked\"" : string.Empty %>>
+                        <!--input type="checkbox" class="update-if-exist checkbox" <%= FilesSettings.UpdateIfExist ? "checked=\"checked\"" : string.Empty %>-->
+                        <!-- 强制覆盖相同名称的文件-->
+                        <input type="checkbox" class="update-if-exist checkbox" checked="checked">
                         <%= FilesUCResource.UpdateIfExist%>
                     </label>
                 </li>
