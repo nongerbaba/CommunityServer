@@ -4,6 +4,7 @@
     <% if (!DisableVideo)
        { %>
 <li class="menu-item none-sub-list video-guides add-block">
+    <-- 注释掉视频指南
     <div class="category-wrapper">
         <a class="menu-item-label outer-text text-overflow video-link" href="<%= AllVideoLink %>" target="_blank">
             <span class="menu-item-icon video-guides"></span>
@@ -14,6 +15,7 @@
         <span class="new-label-menu" title="<%=Resource.VideoShowUnwatchedVideo %>"></span>
 
     </div>
+    -->
     
 </li>
 

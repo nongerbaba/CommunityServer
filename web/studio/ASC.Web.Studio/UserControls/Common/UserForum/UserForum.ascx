@@ -3,6 +3,7 @@
 
 <% if(!String.IsNullOrEmpty(UserForumLink)) { %>
 <li class="menu-item none-sub-list userforum add-block">
+    <!-- 注释掉用户论坛模块
     <div class="category-wrapper">
         <a class="menu-item-label outer-text text-overflow" href="<%= UserForumLink %>" target="_blank" >
             <span class="menu-item-icon userforum"></span>
@@ -11,5 +12,6 @@
             </span>
         </a>
     </div>
+    -->
 </li>
 <% } %>

@@ -63,6 +63,7 @@
         <% } %>
         <% if (!string.IsNullOrEmpty(HelpLink)) %>
         <% { %>
+        <!-- 注释掉帮忙中心模块
         <div class="module-block">
             <div class="img helpcenter"></div>
             <div class="title"><%= CommunityResource.HelpModuleTitle %></div>
@@ -74,6 +75,7 @@
                 <%= CommunityResource.HelpModuleLink %>
             </a>
         </div>
+        -->
         <% } %>
     </div>
 </div>
